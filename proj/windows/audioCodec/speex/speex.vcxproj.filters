@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\demo">
+      <UniqueIdentifier>{29a905d3-508f-4cd6-9a5f-3ad178ea0ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\demo\speex">
+      <UniqueIdentifier>{e293f774-8f39-4997-a901-afa30a50bf5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\demo\opus">
+      <UniqueIdentifier>{7ec6aa78-fadb-4604-9c30-97df31cdb64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\demo\lame">
+      <UniqueIdentifier>{8bb35418-3884-4aa9-b0ef-34b14a004f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\demo\amr">
+      <UniqueIdentifier>{e66d6331-a26a-4322-892e-bcf202656ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\speex">
+      <UniqueIdentifier>{68946504-ccce-4bbd-9d2a-140f9435cfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\opus">
+      <UniqueIdentifier>{8f5d349c-6bcd-4487-9e0f-db3681229b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src">
+      <UniqueIdentifier>{01aabafe-9c61-4f12-8bda-17809022a902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\speex\speex">
+      <UniqueIdentifier>{c23fa431-4529-4478-8f16-12f72f251254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\audioCodec">
+      <UniqueIdentifier>{1fe55c12-29fc-4ca6-95fd-cca5b703c288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\audioCodec\speex">
+      <UniqueIdentifier>{f39a5521-ec30-481a-99cb-38c81db02918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\audioCodec\opus">
+      <UniqueIdentifier>{7d50281c-1b2a-4a73-8e75-b2b64d8cac86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\audioCodec\amr">
+      <UniqueIdentifier>{19093e9a-3030-4152-bda3-8a9d923cf73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\audioCodec\lame">
+      <UniqueIdentifier>{089be847-4f57-4cb3-af85-1e5ecb1b0388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\thread">
+      <UniqueIdentifier>{70f4c8c3-9ccf-40e8-88e2-6520b1df3642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\errorCode">
+      <UniqueIdentifier>{ea3d0f98-0424-4b1d-a47f-498ef1a030a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\util">
+      <UniqueIdentifier>{0eec7be6-022b-44cd-af03-04bc08685fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\src\audioCodec\wave">
+      <UniqueIdentifier>{00248a9f-1108-4e6e-982e-10fc12294d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\amr">
+      <UniqueIdentifier>{efd7d129-4ec9-4bb9-8a8e-dd8fc2614915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\amr\lib">
+      <UniqueIdentifier>{1498e527-d0b8-4e28-b8a3-6d28d0351cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\amr\include">
+      <UniqueIdentifier>{a8beb7c5-1ef5-455e-b954-609eb0072aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\opus\include">
+      <UniqueIdentifier>{b61b9f5a-7e3d-43d0-bd90-6ac8480c21dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\config.h">
+      <Filter>头文件\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\speex\speex.h">
+      <Filter>头文件\speex\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\speex\speex_bits.h">
+      <Filter>头文件\speex\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\speex\speex_callbacks.h">
+      <Filter>头文件\speex\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\speex\speex_config_types.h">
+      <Filter>头文件\speex\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\speex\speex_header.h">
+      <Filter>头文件\speex\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\speex\speex_stereo.h">
+      <Filter>头文件\speex\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\speex\inc\speex\speex_types.h">
+      <Filter>头文件\speex\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\audioCodec\speex\audioCodecSpeex.h">
+      <Filter>资源文件\src\audioCodec\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\audioCodec\audioCodecBase.h">
+      <Filter>资源文件\src\audioCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\errorCode\errorcode.h">
+      <Filter>资源文件\src\errorCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\util\util.h">
+      <Filter>资源文件\src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\demo\testCase.h">
+      <Filter>资源文件\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\audioCodec\wave\pcm2wave.h">
+      <Filter>资源文件\src\audioCodec\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\audioCodec\wave\wavreader.h">
+      <Filter>资源文件\src\audioCodec\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\audioCodec\wave\wavwriter.h">
+      <Filter>资源文件\src\audioCodec\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\audioCodec\amr\audioCodecAmrNB.h">
+      <Filter>资源文件\src\audioCodec\amr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\amr\include\opencore-amrnb\interf_dec.h">
+      <Filter>头文件\amr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\amr\include\opencore-amrnb\interf_enc.h">
+      <Filter>头文件\amr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\opus\include\opus.h">
+      <Filter>头文件\opus\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\opus\include\opus_custom.h">
+      <Filter>头文件\opus\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\opus\include\opus_defines.h">
+      <Filter>头文件\opus\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\opus\include\opus_multistream.h">
+      <Filter>头文件\opus\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\opus\include\opus_projection.h">
+      <Filter>头文件\opus\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\opus\include\opus_types.h">
+      <Filter>头文件\opus\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\demo\speex\testenc_wb.c">
+      <Filter>资源文件\demo\speex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\audioCodec\speex\audioCodeSpeex.cpp">
+      <Filter>资源文件\src\audioCodec\speex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\audioCodec\audioCodecBase.cpp">
+      <Filter>资源文件\src\audioCodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\demo\speex\testAudioCodecSpeex.cpp">
+      <Filter>资源文件\demo\speex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\util\util.cpp">
+      <Filter>资源文件\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\audioCodec\wave\pcm2wave.cpp">
+      <Filter>资源文件\src\audioCodec\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\demo\main.cpp">
+      <Filter>资源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\audioCodec\wave\wavreader.c">
+      <Filter>资源文件\src\audioCodec\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\audioCodec\wave\wavwriter.c">
+      <Filter>资源文件\src\audioCodec\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\audioCodec\amr\audioCodecAmrNB.cpp">
+      <Filter>资源文件\src\audioCodec\amr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\audioCodec\amr\amr2wave.cpp">
+      <Filter>资源文件\demo\amr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\demo\opus\testOpus.cpp">
+      <Filter>资源文件\demo\opus</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
